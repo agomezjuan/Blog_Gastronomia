@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Mella Nissa;
+  src: url(../fonts/MellaNissa.ttf);
+}
+body {
+  font-size: 14px;
+}
+@@media query {
+
+}
+header {
+  display: flex;
+}
+div {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+.logo a span {
+  font-family: Mella Nissa, cursive;
+  font-size: 4em;
+}
+.slogan {
+  font-style: italic;
+  font-size: 18px;
+  text-align: right;
+}
