@@ -8,9 +8,9 @@ body {
   font-size: 14px;
 }
 .grid-container {
+  /* max-width: 900px !important; */
   background-color: aliceblue;
   border: 3px solid rgb(215, 213, 213);
-  border-radius: 15px;
 }
 header {
   display: flex;
@@ -18,14 +18,10 @@ header {
 nav {
   margin-bottom: 1rem;
 }
-div {
-  border-radius: 5px;
-  /* border: 1px solid black; */
-}
 .logo {
   display: flex;
   flex-direction: column;
-  margin: 20px !important;
+  margin: 20px 0 0 20px !important;
 }
 .logo a h1 {
   font-family: Mella Nissa, cursive;
@@ -33,6 +29,26 @@ div {
 }
 .slogan {
   font-style: italic;
+  padding-left: 90px;
   font-size: 18px;
-  text-align: right;
+}
+.card-divider {
+  display: flex;
+  flex-direction: column;
+}
+.post-title {
+  font-size: 2rem;
+}
+.comentarios {
+  display: flex;
+}
+.user {
+  border-radius: 50%;
+  width: 65px;
+}
+.new-comment {
+  margin: 0;
+}
+.all-comments {
+  background-color: rgb(231, 231, 231);
 }
