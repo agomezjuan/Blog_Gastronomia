@@ -3,23 +3,31 @@
   src: url(../fonts/MellaNissa.ttf);
 }
 body {
+  background-image: url(../img/herringbone.png);
+  padding: 50px 0;
   font-size: 14px;
 }
-@@media query {
-
+.grid-container {
+  background-color: aliceblue;
+  border: 3px solid rgb(215, 213, 213);
+  border-radius: 15px;
 }
 header {
   display: flex;
 }
+nav {
+  margin-bottom: 1rem;
+}
 div {
   border-radius: 5px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .logo {
   display: flex;
   flex-direction: column;
+  margin: 20px !important;
 }
-.logo a span {
+.logo a h1 {
   font-family: Mella Nissa, cursive;
   font-size: 4em;
 }
